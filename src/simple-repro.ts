@@ -2,10 +2,10 @@ import {bindable} from 'aurelia-framework';
 
 export class SimpleRepro {
   @bindable public thing;
-  @bindable public test = true;
+  @bindable public test = false;
 
-  testing() {
-    this.test = true;
+  activate(params) {
+    this.test = false;
   }
   thingChanged(newValue) {
     console.log('simple repro')

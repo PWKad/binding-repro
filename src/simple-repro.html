@@ -1,6 +1,5 @@
 <template>
   <require from="./nested-el"></require>
   <h2>${thing.message}</h2>
-  <button click.delegate="testing()">testing</button>
   <nested-el if.bind="thing || test" thing.two-way="thing"></nested-el>
 </template>
