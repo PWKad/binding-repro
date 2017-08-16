@@ -1,5 +1,5 @@
 <template>
   <require from="./nested-el"></require>
   <h2>${thing.message}</h2>
-  <nested-el thing.two-way="thing"></nested-el>
+  <nested-el if.bind="thing || test" thing.two-way="thing"></nested-el>
 </template>
