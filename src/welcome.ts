@@ -9,8 +9,9 @@ export class Welcome extends WelcomeBase {
   }
   activate(params) {
     console.log('activating')
-    this.test = true;
     super.activate(params);
+    console.log('setting')
+    this.test = true;
   }
   setThing() {
     let newThing = { message: 'New message' };
