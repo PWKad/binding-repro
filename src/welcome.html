@@ -1,7 +1,7 @@
 <template>
   <require from="./simple-repro"></require>
   <section class="au-animate">
-    <simple-repro thing.bind="thing"></simple-repro>
+    <simple-repro thing.two-way="thing"></simple-repro>
     <button click.delegate="setThing()">Change value</button>
   </section>
 </template>

@@ -1,10 +1,10 @@
 import {bindable} from 'aurelia-framework';
 
-export class SimpleRepro {
+export class NestedEl {
   @bindable public thing;
 
   thingChanged(newValue) {
-    console.log('simple repro')
+    console.log('nested el')
     console.log(newValue)
   }
 }

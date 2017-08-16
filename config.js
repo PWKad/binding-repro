@@ -213,6 +213,12 @@ System.config({
     "main.js": [
       "bootstrap"
     ],
+    "nested-el.js": [
+      "aurelia-framework"
+    ],
+    "nested-observable.js": [
+      "aurelia-framework"
+    ],
     "simple-repro.js": [
       "aurelia-framework"
     ]
@@ -223,6 +229,10 @@ System.config({
       "app.js",
       "main.js",
       "nav-bar.html!github:systemjs/plugin-text@0.0.8.js",
+      "nested-el.html!github:systemjs/plugin-text@0.0.8.js",
+      "nested-el.js",
+      "nested-observable.html!github:systemjs/plugin-text@0.0.8.js",
+      "nested-observable.js",
       "simple-repro.html!github:systemjs/plugin-text@0.0.8.js",
       "simple-repro.js",
       "welcome.html!github:systemjs/plugin-text@0.0.8.js",
