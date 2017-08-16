@@ -209,20 +209,6 @@ System.config({
       "indexof": "npm:indexof@0.0.1"
     }
   },
-  depCache: {
-    "main.js": [
-      "bootstrap"
-    ],
-    "nested-el.js": [
-      "aurelia-framework"
-    ],
-    "nested-observable.js": [
-      "aurelia-framework"
-    ],
-    "simple-repro.js": [
-      "aurelia-framework"
-    ]
-  },
   bundles: {
     "app-build.js": [
       "app.html!github:systemjs/plugin-text@0.0.8.js",
@@ -329,6 +315,20 @@ System.config({
       "npm:aurelia-templating@1.1.1/aurelia-templating.js",
       "npm:jquery@2.2.4.js",
       "npm:jquery@2.2.4/dist/jquery.js"
+    ]
+  },
+  depCache: {
+    "main.js": [
+      "bootstrap"
+    ],
+    "nested-el.js": [
+      "aurelia-framework"
+    ],
+    "nested-observable.js": [
+      "aurelia-framework"
+    ],
+    "simple-repro.js": [
+      "aurelia-framework"
     ]
   }
 });
